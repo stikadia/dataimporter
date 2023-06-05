@@ -1,0 +1,7 @@
+dataimporter.importcsv:  
+  path: '/admin/importcsv'
+  defaults:
+    _form: '\Drupal\dataimporter\Form\CsvForm'
+    _title: 'Import - CSV data to Drupal'
+  requirements:
+    _permission: 'admin content' 
